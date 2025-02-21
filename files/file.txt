@@ -1,3 +1,5 @@
 ||domain.com
 domain.com##.element
 new.domain.com##.class
+test3
+test4
