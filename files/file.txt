@@ -1,3 +1,6 @@
 ||domain.com
 domain.com##.element
 new.domain.com##.class
+dfg1
+dfg2
+dfg3
