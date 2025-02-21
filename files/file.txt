@@ -1,3 +1,5 @@
 ||domain.com
 domain.com##.element
 new.domain.com##.class
+||u5lddcsi.xyz^
+||play.bunnycdn.to^
