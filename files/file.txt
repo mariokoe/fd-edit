@@ -1,3 +1,6 @@
-||domain.com
+domain.com###foo
 domain.com##.element
 new.domain.com##.class
+||difficult-help.com^
+||domain.com
+||u5lddcsi.xyz^
