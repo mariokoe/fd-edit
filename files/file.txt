@@ -1,3 +1,6 @@
-||domain.com
+abc
+def
 domain.com##.element
+ghe
 new.domain.com##.class
+||domain.com
