@@ -7532,3 +7532,10 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-ad-card"]
 checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
+country104.com##.l-article__content p:nth-of-type(6)
+country104.com##.l-module--widget-outbrain
+mypositiveoutlooks.com###fixed_container_bottom
+mypositiveoutlooks.com##.inside-right-sidebar .sidebarBtfStacked:nth-child(6)
+mypositiveoutlooks.com##.inside-right-sidebar .sidebarBtfStacked:nth-child(7)
+piquenewsmagazine.com##.GoogleActiveViewElement
+psychopharmacopeia.com###mys-wrapper
