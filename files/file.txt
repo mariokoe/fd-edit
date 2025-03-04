@@ -111,8 +111,10 @@ mesyuu.com##.plugin3_outline
 matomecup.com##.plugin3_outline:last-child
 digiday.jp##.post-grid:has(.-sponsored)
 moeimg.net##.post.pc_only
+roomie.jp##.post_property-sponsored
 gpc-check.com##.pr-area1
 news-boaters.com##.pr-banner
+roomie.jp##.r-article-mainimage:has(.r-article-sponsored)
 lettuceclub.net##.r-items
 all-nationz.com##.right-column-inner > div.plugin-memo:first-child
 all-nationz.com##.right-column-inner > div.plugin-memo:last-of-type
@@ -130,7 +132,6 @@ netorarezukiview.com##.side_plugin:has([href^="https://amzn.to/"])
 moneypost.jp##.sw-Banner
 kichikuou.com##.tbBox:has(.adAdjust02)
 newmatosoku.com##.topmain + div > div:has(a[href*="amazon.co.jp"])
-newmatosoku.com#?#.topmain ~ div[class] > .sideh2:-abp-contains(広告)
 katuru.com##.ui-block-b:has(script[type="text/javascript"])
 kahoku.news##.vr2_articleslist__item:has([id^="div-gpt-ad-"])
 kahoku.news##.vr2_pickup-main
@@ -138,12 +139,12 @@ musenboya.com##.widget_pc_ad
 young-machine.com##.wym-v2022-home__brand-banners
 417ena.net##.ys-ad-content
 bunshun.jp##[class*="banner-pc_right_"]
+gizmodo.jp##[class*="cardItem"]:has([class*="cardAssistSponsored"])
 news.merumo.ne.jp##[class^="_taxel_ad_"]
 crank-in.net##[class^="ad-area_pr"] p[style]
 karapaia.com##[class^="ads"]
 blog.esuteru.com##[class^="azrank-"]
 apollomaniacs.com##[class^="kk_"]
-gizmodo.jp##[class*="cardItem"]:has([class*="cardAssistSponsored"])
 r.gnavi.co.jp##[href*="rakuten.co.jp/campaign/"]
 ribbon.to##[href="http://rdn.jp/"]
 purelovers.com##[href="https://cigoto.jp/"]
@@ -185,74 +186,78 @@ kahoku.news##[style*="z-index:2000000;"]
 h1g.jp##[style^="width: 300px; height: 250px; text-align:center;"]
 asahi.com##[x-component-name="Naka9OutBrain"]
 hosyusokuhou.jp##a[class="kikin"]
+newmatosoku.com##a[href*="amazon.co.jp"]
 fiveslot777.com##a[href^="https://www.amazon.co.jp/"][target="_blank"] > img[src*=".amazon-adsystem.com"]
 news4vip.livedoor.biz##a[href^="https://www.amazon.co.jp/gp/"]
-newmatosoku.com##a[href*="amazon.co.jp"]
 baby-calendar.jp##div > [href^="https://sommelier.gift/"]
 news4vip.livedoor.biz##div.plugin-memo:has(> div.side ins.adsbygoogle)
 syosetu.org##div[style="height:250px; width:300px;"]
 financial-field.com##div[style]:has(#pc_article_right_1st)
 blog.livedoor.jp##iframe[src*="//aladdin.genieesspv.jp/"]
 yagan.hatenablog.com##iframe[src^="http://rcm-fe.amazon-adsystem.com/"]
-newmatosoku.com##li[class*="waku-zenta3"]
 oricon.co.jp##li:has([class^="_taxel_ad_article_"])
+newmatosoku.com##li[class*="waku-zenta3"]
+newmatosoku.com#?#.topmain ~ div[class] > .sideh2:-abp-contains(広告)
 ibarakinews.jp##section[class="l-grid-banner"]
 crank-in.net##section[class^="ad-list-m"]
 marumie.name##table:has(.tr1)
 nogizaka-46bunno1.blog.jp##table:has([href^="https://hb.afl.rakuten.co.jp/"])
 h1g.jp##table[border="0"][align="center"]
 hdata.seesaa.net##table[style=" border-style: none; width:163px;"]
-roomie.jp##.post_property-sponsored
-roomie.jp##.r-article-mainimage:has(.r-article-sponsored)
 ! ABP Filters
-mashingup.jp#?#[class*="CardWrapper"]:-abp-contains(Sponsored)
-matomecup.com#?#[class^="plugin"]:-abp-contains(PR)
-kabegamikan.com#?#[style*="360px;"]:-abp-contains(スポンサードリンク)
-kabegamikan.com#?#[style="width:100%;margin:10px 0;"]:-abp-contains(スポンサードリンク)
-plant-world.biz#?#center:-abp-contains(スポンサードリンク)
-pokemongo-kouryakumatome.net#?#.-freeArea:-abp-contains(スポンサードリンク)
-nishinippon.co.jp#?#.l-section-side:-abp-contains(PR)
-matomecup.com#?#.menuTabLight:-abp-contains(PR)
-hoimiso.xsrv.jp#?#.menu_underh2:-abp-contains(スポンサーリンク)
-supersolenoid.blog.fc2.com#?#.menuBlock:-abp-contains(スポンサード・リンク)
-mildch.com#?#.module:-abp-contains(スポンサードリンク)
-jj-labo.seesaa.net#?#.module__heading:-abp-contains(スポンサーリンク)
-nofootynolife.net#?#.plugin1:-abp-contains(Ads by amazon)
-nofootynolife.net#?#.plugin2:-abp-contains(Amazon)
-kokopyon.net#?#.plugin_first:-abp-contains(スポンサーリンク)
-hattatu-matome.ldblog.jp,majikichi.com#?#.plugin-memo:-abp-contains(広告)
-michaelsan.livedoor.biz#?#.plugin-memo:-abp-contains(気になる物)
-moyugenn.youblog.jp#?#.plugin-memo:-abp-contains(ピックアップ商品)
-anihatsu.com,moyugenn.youblog.jp,pachinkolist.com,taikankyohou.com#?#.plugin-memo:-abp-contains(スポンサーリンク)
-2chcopipe.com,aaieba.livedoor.biz,bipblog.com,chaos2ch.com,matome-tarou.ldblog.jp,moyugenn.youblog.jp,openworldnews.net,sutekinakijo.com#?#.plugin-memo:-abp-contains(スポンサードリンク)
-crx7601.com,hattatu-matome.ldblog.jp#?#.plugin-memo:-abp-contains(Amazon)
-chaos2ch.com#?#.plugin-memo:-abp-contains(amazon)
-doorblog.jp#?#.plugin-memo:-abp-contains(ad)
-michaelsan.livedoor.biz#?#.plugin-memo:-abp-contains(sponsor)
-kaigainoomaera.com#?#.plugin_right:-abp-contains(スポンサー広告)
-businessinsider.jp#?#.s-cardList-card2:-abp-contains(Sponsored)
-newmatosoku.com#?#.sideh2:-abp-contains(広告)
-ongakumichi523.jp#?#.sidemenu_content:-abp-contains(スポンサーリンク)
-blog.livedoor.jp#?#.sidetitle:-abp-contains(スポンサーリンク)
-qiita.com#?#.style-178yklu:-abp-contains(Community sponser)
-haijin-boys.com#?#.widget:-abp-contains(おすすめ)
-live.doneru.jp#?#.widget:-abp-contains(Sponserd Link)
-setusoku.com##a[href^="https://amzn.to/"]
-barks.jp#?#p:-abp-contains(特集・サービス)
-barks.jp#?#p:-abp-contains(FEATURE / SERVICE)
-simtaro.com##a[rel*="external"]
-smhn.info##div[class^="entry_under"]
-sow.blog.jp##.side > a[href*="www.amazon.co.jp"]
+mypositiveoutlooks.com###fixed_container_bottom
+traveltoku.com###header_banner_area
+newero1.blog.fc2.com###sub-ad
+nikkansports.com##.adRakuten
+mypositiveoutlooks.com##.inside-right-sidebar .sidebarBtfStacked:nth-child(6)
+mypositiveoutlooks.com##.inside-right-sidebar .sidebarBtfStacked:nth-child(7)
+country104.com##.l-article__content p:nth-of-type(6)
+country104.com##.l-module--widget-outbrain
 uwagakisimasuka.blog.fc2.com##.plugin-freearea
 matomecup.com##.plugin-freearea a[href*="al.dmm.co"]
-cojicaji.jp##div[class="adsense-below-article-list"]
-world-fusigi.net##div[class="ad_full_wrap"]
-ecodb.net##div[class="ads"]
-traveltoku.com###header_banner_area
-nikkansports.com##.adRakuten
-nikkansports.com##div[id^="div-gpt-ad"]
+sow.blog.jp##.side > a[href*="www.amazon.co.jp"]
+2chcopipe.com,aaieba.livedoor.biz,bipblog.com,chaos2ch.com,matome-tarou.ldblog.jp,moyugenn.youblog.jp,openworldnews.net,sutekinakijo.com#?#.plugin-memo:-abp-contains(スポンサードリンク)
+setusoku.com##a[href^="https://amzn.to/"]
+simtaro.com##a[rel*="external"]
+anihatsu.com,moyugenn.youblog.jp,pachinkolist.com,taikankyohou.com#?#.plugin-memo:-abp-contains(スポンサーリンク)
 nikkansports.com##aside[id^="headerAdBnr"]
 nikkansports.com##aside[id^="sideAd"]
+barks.jp#?#p:-abp-contains(FEATURE / SERVICE)
+barks.jp#?#p:-abp-contains(特集・サービス)
+blog.livedoor.jp#?#.sidetitle:-abp-contains(スポンサーリンク)
+businessinsider.jp#?#.s-cardList-card2:-abp-contains(Sponsored)
+chaos2ch.com#?#.plugin-memo:-abp-contains(amazon)
+crx7601.com,hattatu-matome.ldblog.jp#?#.plugin-memo:-abp-contains(Amazon)
+world-fusigi.net##div[class="ad_full_wrap"]
+ecodb.net##div[class="ads"]
+cojicaji.jp##div[class="adsense-below-article-list"]
+smhn.info##div[class^="entry_under"]
+nikkansports.com##div[id^="div-gpt-ad"]
+doorblog.jp#?#.plugin-memo:-abp-contains(ad)
+haijin-boys.com#?#.widget:-abp-contains(おすすめ)
+hattatu-matome.ldblog.jp,majikichi.com#?#.plugin-memo:-abp-contains(広告)
+hoimiso.xsrv.jp#?#.menu_underh2:-abp-contains(スポンサーリンク)
+jj-labo.seesaa.net#?#.module__heading:-abp-contains(スポンサーリンク)
+kabegamikan.com#?#[style*="360px;"]:-abp-contains(スポンサードリンク)
+kabegamikan.com#?#[style="width:100%;margin:10px 0;"]:-abp-contains(スポンサードリンク)
+kaigainoomaera.com#?#.plugin_right:-abp-contains(スポンサー広告)
+kokopyon.net#?#.plugin_first:-abp-contains(スポンサーリンク)
 lifehacker.jp#?#.swiper-slide:-abp-contains(Sponsored)
 lifehacker.jp#?#figure[class*="HeroImage"]:-abp-contains(Sponsored)
-newero1.blog.fc2.com###sub-ad
+live.doneru.jp#?#.widget:-abp-contains(Sponserd Link)
+mashingup.jp#?#[class*="CardWrapper"]:-abp-contains(Sponsored)
+matomecup.com#?#.menuTabLight:-abp-contains(PR)
+matomecup.com#?#[class^="plugin"]:-abp-contains(PR)
+michaelsan.livedoor.biz#?#.plugin-memo:-abp-contains(sponsor)
+michaelsan.livedoor.biz#?#.plugin-memo:-abp-contains(気になる物)
+mildch.com#?#.module:-abp-contains(スポンサードリンク)
+moyugenn.youblog.jp#?#.plugin-memo:-abp-contains(ピックアップ商品)
+newmatosoku.com#?#.sideh2:-abp-contains(広告)
+nishinippon.co.jp#?#.l-section-side:-abp-contains(PR)
+nofootynolife.net#?#.plugin1:-abp-contains(Ads by amazon)
+nofootynolife.net#?#.plugin2:-abp-contains(Amazon)
+ongakumichi523.jp#?#.sidemenu_content:-abp-contains(スポンサーリンク)
+plant-world.biz#?#center:-abp-contains(スポンサードリンク)
+pokemongo-kouryakumatome.net#?#.-freeArea:-abp-contains(スポンサードリンク)
+qiita.com#?#.style-178yklu:-abp-contains(Community sponser)
+supersolenoid.blog.fc2.com#?#.menuBlock:-abp-contains(スポンサード・リンク)
