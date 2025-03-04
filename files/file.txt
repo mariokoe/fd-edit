@@ -1,3 +1,5 @@
-||domain.com
-domain.com##.element
 new.domain.com##.class
+domain.com##.element
+country104.com##aside div:nth-of-type(6)
+country104.com##main div:nth-child(2) p:nth-of-type(6)
+||domain.com
