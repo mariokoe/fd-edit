@@ -256,3 +256,4 @@ nikkansports.com##aside[id^="sideAd"]
 lifehacker.jp#?#.swiper-slide:-abp-contains(Sponsored)
 lifehacker.jp#?#figure[class*="HeroImage"]:-abp-contains(Sponsored)
 newero1.blog.fc2.com###sub-ad
+glam4u.gr###popup-overlay
