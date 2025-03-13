@@ -256,3 +256,7 @@ nikkansports.com##aside[id^="sideAd"]
 lifehacker.jp#?#.swiper-slide:-abp-contains(Sponsored)
 lifehacker.jp#?#figure[class*="HeroImage"]:-abp-contains(Sponsored)
 newero1.blog.fc2.com###sub-ad
+
+hellasminds.com##.actnbr-premium-chronicle
+makrisservices.gr##[id^="journal-header-notice"]
+botilia.gr##.popup-lang-suggestion
